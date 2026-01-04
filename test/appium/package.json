@@ -1,0 +1,31 @@
+{
+  "name": "native-demo-app-appium-tests",
+  "version": "1.0.0",
+  "description": "Appium tests for Native Demo App Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --timeout 300000",
+    "test:swipe": "mocha test/swipe_test.js --timeout 300000",
+    "test:drag": "mocha test/drag_test.js --timeout 300000"
+  },
+  "keywords": [
+    "appium",
+    "mobile",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^8.0.0",
+    "@wdio/cli": "^8.0.0",
+    "@wdio/local-runner": "^8.0.0",
+    "@wdio/mocha-framework": "^8.0.0",
+    "appium": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  }
+}
+
